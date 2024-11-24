@@ -1,0 +1,80 @@
+body {
+    background-color: #202020;
+    color: #00c400;
+}
+
+.generator {
+    width: 250px;
+    margin: 150px auto;
+    padding: 20px;
+    border: 4px dashed #00c400;
+    border-radius: 10px;
+}
+
+div.password {
+    display: grid;
+    grid-template-columns: auto min-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+div.password input {
+    padding: 7px 10px;
+    background-color: #ddd;
+    border: 0;
+    color: #202020;
+}
+
+button {
+    background-color: #00c400;
+    color: #202020;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 10px;
+}
+
+div.password button {
+    border-radius: 0;
+}
+
+div.range {
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+
+div.range span {
+    padding: 10px;
+    margin-left: 20px;
+    min-width: 30px;
+    text-align: center;
+    border: dotted;
+    border-radius: 10px;
+}
+
+div.choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+div.choices label {
+    display: block;
+    background-color: #202020;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+button.generate {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #00c400;
+}
