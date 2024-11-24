@@ -7,9 +7,54 @@
     <title>PW Gen</title>
 </head>
 <body>
-    
-    
+    <h1>Generate a Password</h1>
+    <div class="generator">
 
+        <div class="password">
+            <input type="text" value="Password" />
+            <button>Copy</button>
+        </div>
+
+        <div class="range">
+            <input type="range" min="4" max="24" value="8" />
+            <span>8</span>
+        </div>
+
+        <div class="choices">
+            <div class="option">
+                <label>
+                    <input type="checkbox" id="lowercaseCb" />
+                    <span>a-z</span>
+                </label>
+            </div>
+
+            <div class="option">
+                <label>
+                    <input type="checkbox" id="uppercaseCb" />
+                    <span>A-Z</span>
+                </label>
+            </div>
+
+            <div class="option">
+                <label>
+                    <input type="checkbox" id="digitsCb" />
+                    <span>0-9</span>
+                </label>
+            </div>
+
+            <div class="option">
+                <label>
+                    <input type="checkbox" id="specialCb" />
+                    <span>!@#$%^</span>
+                </label>
+            </div>
+        </div>
+
+        <button class="generate">
+            Generate
+        </button>
+    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
