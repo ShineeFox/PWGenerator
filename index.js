@@ -16,6 +16,8 @@ function generate() {
         dictionary += "!@#$%^&*()_+-={}[]:;<>";
     }
 
+    const length = document.querySelector('input[type="range"]').value;
+
     if (length < 1 || dictionary.length === 0) {
         return;
     }
